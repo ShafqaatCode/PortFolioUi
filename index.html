@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolioUI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontsource-satoshi/4.2.0/index.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            color: white;
+        }
+
+        .navbar {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 1px solid red; */
+        }
+
+        .navbar .menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+        }
+
+        .navbar img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .navbar .toggle-img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar .contact-btn {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="assets/Group.png" alt="">
+            <ul class="menu">
+                <li><button>About</button></li>
+                <li><button>Projects</button></li>
+                <li><button class="contact-btn">Contact</button></li>
+            </ul>
+            <img class="toggle-img" src="assets/Vector(1).png" alt="">
+
+        </nav>
+    </header>
+
+
+
+
+    <head>
+        <style>
+            .hero {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 130px 50px;
+            }
+
+            .hero .main-container {
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                /* border: 2px solid red;s */
+            }
+
+            .main-container .left {
+                color: #a9a9a9;
+            }
+
+            .main-container h3 {
+                color: white;
+                font-weight: 700;
+                font-size: 22px;
+            }
+
+            .main-container h1 {
+                color: #55e5a4;
+                font-size: 42px;
+                font-weight: 900;
+                margin: 10px 0;
+            }
+
+            .main-container p {
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 1.4;
+            }
+
+            .main-container .btn {
+                display: flex;
+                gap: 20px;
+                text-align: center;
+                align-items: center;
+                margin-top: 40px;
+            }
+        </style>
+    </head>
+    <section class="hero">
+        <div class="main-container">
+            <div class="left">
+                <h3>Niirod Kibet</h3>
+                <h1>Frontend & GIS Developer.</h1>
+                <p>I specialize in crafting immersive user experiences using the latest frontend technologies and
+                    frameworks to bring your vision to life. Additionally, my expertise extends to geoinformatics, where
+                    I excel in harnessing the power of spatial data to uncover actionable insights.</p>
+                <div class="btn">
+                    <button>Get In Touch</button>
+                    <p><img src="assets/Ellipse 2.png" alt=""> Available Now</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="assets/Vector.png" alt="">
+            </div>
+        </div>
+    </section>
+    <style>
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 700px;
+            margin: 60px 0;
+            /* background-color: red; */
+        }
+
+        .about-container {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+            color: #a9a9a9;
+        }
+
+        .about-container p {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 1.4;
+        }
+
+        .about-container h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 42px;
+            /* text-align: end; */
+        }
+
+        .about-container h2 {
+            font-weight: 700;
+            font-size: 12px;
+            color: #55e5a4;
+            text-align: center;
+            margin-bottom: 20px;
+            /* display: inline; */
+        }
+
+        .about-container .langs {
+            margin: 40px 0;
+        }
+
+        .about-container .langs img {
+            margin: 0 15px;
+        }
+
+        .about-container .resume {
+            font-size: 22px;
+            background-color: transparent;
+            border: 2px solid #55e5a4;
+            color: #55e5a4;
+            border-radius: 0;
+        }
+    </style>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="left-image">
+                <img src="assets/Frame 92.png" alt="man-img">
+            </div>
+            <div class="right-text">
+                <h1>About Me</h1>
+                <h2>---Who Am I?</h2>
+                <p>I am currently a master’s student in Applied Geoinformatics at the University of Salzburg, Austria. I
+                    have a keen interest in front-end and GIS development. My goal is to use my expertise in building
+                    exciting and functional user interfaces. Additionally, employ my geospatial analysis, modeling, and
+                    process automation skills to engineer innovative, customizable, and sustainable software solutions.
+                    The following are tech stacks that I use regularly:</p>
+                <div class="langs">
+                    <img src="assets/langs/Frame 66.png" alt="">
+                    <img src="assets/langs/Frame 67.png" alt="">
+                    <img src="assets/langs/Frame 68.png" alt="">
+                    <img src="assets/langs/Frame 69.png" alt="">
+                    <img src="assets/langs/Frame 71.png" alt="">
+                    <img src="assets/langs/Frame 72.png" alt="">
+                    <img src="assets/langs/Frame 73.png" alt="">
+
+                </div>
+
+                <button class="resume">Download Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .pro-list {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 2px solid #55e5a4;
+        }
+
+        .project-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .project-container h1 {
+            font-weight: 500;
+            font-size: 42px;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .project-container .btns button {
+            margin: 0 10px;
+            border-radius: 0;
+            width: 180px;
+        }
+
+        .card {
+            height: 660px;
+            width: 540px;
+            /* background-color: #55e5a4; */
+            border-radius: 10px;
+            background-color: #26313F;
+
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .card .content {
+            text-align: center;
+            margin: auto;
+        }
+
+        .card .content h1 {
+            font-size: 42px;
+            font-weight: 500;
+            color: white;
+            padding: 0;
+        }
+
+        .card .content p {
+            text-align: left;
+            color: #a9a9a9;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.4;
+            margin: 25px 20px;
+        }
+
+        .card .langs {
+            text-align: center;
+            color: white;
+            margin: 10px 0;
+        }
+
+        .langs h2 {
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .langs .icons img {
+            width: 40px;
+            object-fit: cover;
+            margin: 20px;
+        }
+
+        .card .btns {
+            text-align: center;
+        }
+
+        .project-cards {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 60px 0;
+        }
+    </style>
+
+    <section class="pro-list">
+        <div class="project-container">
+            <h1>Projects</h1>
+            <div class="btns">
+                <button>All Projects</button>
+                <button class="btn2">Frontend</button>
+                <button class="btn2">Geo Informatics</button>
+            </div>
+
+            <div class="project-cards">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/Rectangle 9(1).png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Onari B Website</h1>
+                        <p>Working closely with the ONORI-B team, I want to collaborated to ensure that the website not
+                            only met
+                            but exceeded their expectations.
+
+                        </p>
+                    </div>
+                    <div class="langs">
+                        <h2>Technologies Used</h2>
+                        <div class="icons">
+                            <img src="assets/langs/Frame 67.png" alt="">
+                            <img src="assets/langs/Frame 73.png" alt="">
+                            <img src="assets/langs/Frame 71.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button> View Live Demo</button>
+                        <button class="btn2"> Visit Site</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/Rectangle 9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Onari B Website</h1>
+                        <p>Working closely with the ONORI-B team, I want to collaborated to ensure that the website not
+                            only met
+                            but exceeded their expectations.
+
+                        </p>
+                    </div>
+                    <div class="langs">
+                        <h2>Technologies Used</h2>
+                        <div class="icons">
+                            <img src="assets/langs/Frame 67.png" alt="">
+                            <img src="assets/langs/Frame 73.png" alt="">
+                            <img src="assets/langs/Frame 71.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button> View Live Demo</button>
+                        <button class="btn2"> Visit Site</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/Rectangle 9(3).png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Onari B Website</h1>
+                        <p>Working closely with the ONORI-B team, I want to collaborated to ensure that the website not
+                            only met
+                            but exceeded their expectations.
+
+                        </p>
+                    </div>
+                    <div class="langs">
+                        <h2>Technologies Used</h2>
+                        <div class="icons">
+                            <img src="assets/langs/Frame 67.png" alt="">
+                            <img src="assets/langs/Frame 73.png" alt="">
+                            <img src="assets/langs/Frame 71.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button> View Live Demo</button>
+                        <button class="btn2"> Visit Site</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/Rectangle 9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Onari B Website</h1>
+                        <p>Working closely with the ONORI-B team, I want to collaborated to ensure that the website not
+                            only met
+                            but exceeded their expectations.
+
+                        </p>
+                    </div>
+                    <div class="langs">
+                        <h2>Technologies Used</h2>
+                        <div class="icons">
+                            <img src="assets/langs/Frame 67.png" alt="">
+                            <img src="assets/langs/Frame 73.png" alt="">
+                            <img src="assets/langs/Frame 71.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button> View Live Demo</button>
+                        <button class="btn2"> Visit Site</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .contact-container .left-img{
+            background: url(assets/Rectangle_12.png);
+        }
+    </style>
+
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="left-img">
+
+            </div>
+            <div class="right-content">
+                <!-- <img src="assets/Rectangle 12.png" alt=""> -->
+                 <h1>Let’s discuss 
+                    on something cool together</h1>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        footer {
+            height: 400px;
+            background-color: #26313F;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer img {
+            width: 80px;
+        }
+
+
+        footer ul {
+            margin: 20px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            color: #a9a9a9;
+            cursor: pointer;
+        }
+
+        footer ul li {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        hr {
+            color: #26313F;
+            background-color: #a9a9a9;
+        }
+
+        footer p{
+            margin: 10px 0;
+            padding: 10px;
+            text-align: center;
+            color: #a9a9a9;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 20px;
+            border-top: 2px solid #4a5058;
+        }
+
+        footer .langs{
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    </style>
+    <footer>
+        <img src="assets/Group.png" alt="">
+        <ul class="menu">
+            <li>About</li>
+            <li>Project</li>
+            <li>Contact</li>
+        </ul>
+
+        <div class="langs">
+            <img src="assets/Frame 12(1).png" alt="">
+            <img src="assets/Frame 10.png" alt="">
+            <img src="assets/Frame 12(1).png" alt="">
+            <img src="assets/Frame 9.png" alt="">
+        </div>
+        <!-- <hr> -->
+        <div class="copywrite">
+            <p>© 2023 Niirod. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
