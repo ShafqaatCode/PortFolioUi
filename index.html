@@ -119,11 +119,9 @@
     <section class="hero">
         <div class="main-container">
             <div class="left">
-                <h3>Niirod Kibet</h3>
-                <h1>Frontend & GIS Developer.</h1>
-                <p>I specialize in crafting immersive user experiences using the latest frontend technologies and
-                    frameworks to bring your vision to life. Additionally, my expertise extends to geoinformatics, where
-                    I excel in harnessing the power of spatial data to uncover actionable insights.</p>
+                <h3>Shafqaat Hassan</h3>
+                <h1>Frontend & Wordpress Developer.</h1>
+                <p>I am a beginner in web development with skills in frontend technologies and WordPress. I can create responsive websites, design user-friendly interfaces, and work with geoinformatics to analyze spatial data. I am eager to learn and improve my skills to build better digital solutions.</p>
                 <div class="btn">
                     <button>Get In Touch</button>
                     <p><img src="assets/Ellipse 2.png" alt=""> Available Now</p>
@@ -200,11 +198,7 @@
             <div class="right-text">
                 <h1>About Me</h1>
                 <h2>---Who Am I?</h2>
-                <p>I am currently a master’s student in Applied Geoinformatics at the University of Salzburg, Austria. I
-                    have a keen interest in front-end and GIS development. My goal is to use my expertise in building
-                    exciting and functional user interfaces. Additionally, employ my geospatial analysis, modeling, and
-                    process automation skills to engineer innovative, customizable, and sustainable software solutions.
-                    The following are tech stacks that I use regularly:</p>
+                <p>I am Shafqaat Hassana BS Computer Science graduate (2024) from the University of Okara, Pakistan. As a beginner web developer, I have experience in frontend technologies, WordPress development. My final year project focused on real estate price prediction, where I built a React frontend with a FastAPI backend. I also have experience in website managementI am eager to learn new technologies and grow my skills in web development and data analysis.</p>
                 <div class="langs">
                     <img src="assets/langs/Frame 66.png" alt="">
                     <img src="assets/langs/Frame 67.png" alt="">
@@ -252,7 +246,7 @@
         }
 
         .card {
-            height: 660px;
+            height: 680px;
             width: 540px;
             /* background-color: #55e5a4; */
             border-radius: 10px;
@@ -326,7 +320,7 @@
             <div class="btns">
                 <button>All Projects</button>
                 <button class="btn2">Frontend</button>
-                <button class="btn2">Geo Informatics</button>
+                <button class="btn2">Model Training</button>
             </div>
 
             <div class="project-cards">
@@ -335,10 +329,8 @@
                         <img src="assets/Rectangle 9(1).png" alt="">
                     </div>
                     <div class="content">
-                        <h1>Onari B Website</h1>
-                        <p>Working closely with the ONORI-B team, I want to collaborated to ensure that the website not
-                            only met
-                            but exceeded their expectations.
+                        <h1>Real Estate analysis</h1>
+                        <p>My  project involved developing a real estate price prediction system. I trained a machine learning model on  data and built a frontend using React with a FastAPI backend to provide accurate price estimates.
 
                         </p>
                     </div>
@@ -435,21 +427,66 @@
     </section>
 
     <style>
-        .contact-container .left-img{
-            background: url(assets/Rectangle_12.png);
+        .contact-container .left-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: url(assets/Rectangle_12.png) no-repeat;
+            width: 50%;
+            text-align: center;
+            height: 500px;
+        }
+
+        .contact-container .left-img h1 {
+            font-weight: 700;
+            color: white;
+            font-size: 42px;
+
+        }
+        .contact h1{
+
+            color: white;
+            font-size: 42px;
+            font-weight: 500;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .contact-container{
+            display: flex;
+
         }
     </style>
 
 
     <section class="contact">
+        <h1>Get In Touch</h1>
         <div class="contact-container">
             <div class="left-img">
-
+                <h1>Let’s discuss
+                    on something <span style="color: #55e5a4;">cool</span> together</h1>
             </div>
             <div class="right-content">
                 <!-- <img src="assets/Rectangle 12.png" alt=""> -->
-                 <h1>Let’s discuss 
-                    on something cool together</h1>
+
+                <form>
+
+                    <p>I'm interested in...</p>
+                    <div class="btns">
+                        <button>Frontend</button>
+                        <button>GIS</button>
+                    </div>
+                    <div class="in-fields">
+
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Your email">
+                        <input type="text" placeholder="Your message">
+                    </div>
+
+                    <button>Send Message</button>
+                </form>
+
             </div>
         </div>
     </section>
@@ -492,7 +529,7 @@
             background-color: #a9a9a9;
         }
 
-        footer p{
+        footer p {
             margin: 10px 0;
             padding: 10px;
             text-align: center;
@@ -503,7 +540,7 @@
             border-top: 2px solid #4a5058;
         }
 
-        footer .langs{
+        footer .langs {
             margin: 10px 0;
             cursor: pointer;
         }
