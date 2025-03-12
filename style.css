@@ -14,6 +14,8 @@
 }
 
 
+
+
 /* General Settings  */
 
 button{
@@ -281,7 +283,10 @@ header {
 
 .card .btns {
     text-align: center;
+
     /* border: 2px solid red; */
+    /* margin: auto; */
+
 }
 
 .project-cards {
@@ -427,4 +432,15 @@ footer p {
 footer .langs {
     margin: 10px 0;
     cursor: pointer;
+}
+
+.theme-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.theme-icon:hover {
+    transform: scale(1.1);
 }
