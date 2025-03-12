@@ -9,6 +9,10 @@
         flex-direction: column;
         gap: 20px;
     }
+    .main-container .left {
+        color: #a9a9a9;
+        text-align: left;
+    }
 
 
 
