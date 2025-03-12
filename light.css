@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --prime-color: #26313F; /* Button and accent color */
+    --bg-color: #F0F0F4; /* Light background color */
+    --text-color: #333333; /* Dark text color */
+    --card-bg-color: #FFFFFF; /* Card background color */
+    --border-color: #E0E0E0; /* Border color */
+}
+
+/* General Settings */
+button {
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: var(--prime-color);
+    color: #FFFFFF; /* White text for buttons */
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: var(--prime-color);
+    border: 1px solid var(--prime-color);
+}
+
+.btn2:hover {
+    background-color: var(--prime-color);
+    color: #FFFFFF;
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--prime-color);
+    border: 1px solid var(--prime-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Header */
+header {
+    background-color: var(--card-bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar .toggle-img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .contact-btn {
+    background-color: transparent;
+    color: var(--prime-color);
+    border: 1px solid var(--prime-color);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 50px;
+}
+
+.hero .main-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-container .left {
+    color: var(--text-color);
+}
+
+.main-container h3 {
+    color: var(--prime-color);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.main-container h1 {
+    color: var(--prime-color);
+    font-size: 42px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.main-container p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.main-container .btn {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.about-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    color: var(--text-color);
+}
+
+.about-container p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.about-container h1 {
+    color: var(--prime-color);
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.about-container h2 {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--prime-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container .langs {
+    margin: 40px 0;
+}
+
+.about-container .langs img {
+    margin: 0 15px;
+}
+
+.about-container .resume {
+    font-size: 22px;
+    background-color: transparent;
+    border: 2px solid var(--prime-color);
+    color: var(--prime-color);
+    border-radius: 0;
+}
+
+/* Projects Section */
+.pro-list {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid var(--prime-color);
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-container h1 {
+    font-weight: 500;
+    font-size: 42px;
+    color: var(--prime-color);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-container .btns button {
+    margin: 0 10px;
+    border-radius: 0;
+    width: 180px;
+}
+
+.card {
+    height: 680px;
+    width: 540px;
+    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .content {
+    text-align: center;
+    margin: auto;
+}
+
+.card .content h1 {
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--prime-color);
+    padding: 0;
+}
+
+.card .content p {
+    text-align: left;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 25px 20px;
+}
+
+.card .langs {
+    text-align: center;
+    color: var(--prime-color);
+    margin: 10px 0;
+}
+
+.langs h2 {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+.langs .icons img {
+    width: 40px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.card .btns {
+    text-align: center;
+}
+
+.project-cards {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+/* Contact Section */
+.contact-container .left-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/Rectangle_12.png) no-repeat;
+    width: 50%;
+    text-align: center;
+    height: 500px;
+}
+
+.contact-container .left-img h1 {
+    font-weight: 700;
+    color: var(--prime-color);
+    font-size: 42px;
+}
+
+.contact h1 {
+    color: var(--prime-color);
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+    margin: 50px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+
+.contact-container .right-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+}
+
+.contact-container .right-content input::placeholder {
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.right-content input {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    margin: 20px 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.right-content .btns button {
+    width: 40%;
+}
+
+.right-content .sendbtn {
+    margin: 20px 0;
+    border-radius: 0;
+}
+
+.right-content form .para {
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    height: 400px;
+    background-color: var(--card-bg-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid var(--border-color);
+}
+
+footer img {
+    width: 80px;
+}
+
+footer ul {
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+footer ul li {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    border-top: 2px solid var(--border-color);
+}
+
+footer .langs {
+    margin: 10px 0;
+    cursor: pointer;
+}
