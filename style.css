@@ -209,14 +209,18 @@ header {
     /* border: 2px solid red;s */
 }
 
-.main-container .left {
-    color: #a9a9a9;
-}
+
 
 .main-container h3 {
     color: white;
     font-weight: 700;
     font-size: 22px;
+}
+
+.main-container .right img{
+    border-radius: 30%;
+    width: 350px;
+    margin: 10px;
 }
 
 .main-container h1 {
@@ -269,6 +273,11 @@ header {
     font-weight: 700;
     font-size: 42px;
     /* text-align: end; */
+}
+
+.about-container .left-image img{
+    border-radius: 30%;
+    width: 350px;
 }
 
 .about-container h2 {
