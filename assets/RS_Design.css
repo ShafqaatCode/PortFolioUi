@@ -10,8 +10,16 @@
         gap: 20px;
     }
 
+
+
+
+    .main-container .right img {
+        width: 300px;
+
+    }
+
     .main-container h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .main-container p {
@@ -22,6 +30,7 @@
         flex-direction: column;
     }
 }
+
 @media (max-width: 768px) {
     .about {
         height: auto;
@@ -35,14 +44,29 @@
         text-align: center;
     }
 
+    .about-container .left-image {
+        order: 2;
+    }
+
+    .about-container .left-image img{
+        width: 300px;
+        
+    }
+
+    .about-container .right-text {
+        order: 1;
+    }
+
     .about-container h1 {
         font-size: 28px;
     }
 
     .about-container p {
         font-size: 18px;
+        /* text-align: left; */
     }
 }
+
 @media (max-width: 768px) {
     .project-cards {
         flex-direction: column;
@@ -50,14 +74,15 @@
         width: 100%;
     }
 
-    .project-container .btns{
+    .project-container .btns {
         display: flex;
         flex-direction: column;
-        
+
     }
-    .project-container .btns button{
+
+    .project-container .btns button {
         margin-top: 20px;
-        
+
     }
 
     .card {
@@ -65,13 +90,13 @@
         height: auto;
     }
 
-    .card .btns{
+    .card .btns {
         /* text-align: right; */
         display: flex;
         align-items: center;
 
         /* background-color: red; */
-        
+
     }
 
     .card img {
@@ -84,9 +109,10 @@
 
     .card .content p {
         font-size: 18px;
-        
+
     }
 }
+
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
